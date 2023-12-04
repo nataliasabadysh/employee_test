@@ -1,10 +1,10 @@
 import { useId } from "react";
+
 import { DepartmentCard } from "./components/department/card";
 import { AddEmployeeForm } from "./components/employee/form";
-
-import "./App.css";
 import { useDepartmentStorage } from "./components/employee/hooks/useDepartmentStorage";
 
+import "./App.css";
 function App() {
   const { department, setDepartments } = useDepartmentStorage();
   const id = useId();
