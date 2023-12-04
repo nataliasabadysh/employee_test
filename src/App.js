@@ -4,7 +4,7 @@ import { DepartmentCard } from "./components/department/card";
 import { AddEmployeeForm } from "./components/employee/form";
 import { useDepartmentStorage } from "./components/employee/hooks/useDepartmentStorage";
 
-import { useFetch } from "./components/employee/hooks/useFetch";
+// import { useFetch } from "./components/employee/hooks/useFetch";
 
 import "./App.css";
 
