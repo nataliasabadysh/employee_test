@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Onboarding",
+    "id": "b901be80-e370-4394-949f-bcc878d22944",
+    "description": "Handles the integration of new employees into the company, ensuring a smooth transition and providing necessary resources and training.",
+    "employee": [
+      {
+        "firstName": "David",
+        "lastName": "David",
+        "position": "Engineer",
+        "id": "68cbe04f-5cac-4571-9e66-ca233ae0f791"
+      },
+      {
+        "firstName": "Jane",
+        "lastName": "David",
+        "position": "Manager",
+        "id": "513c2353-b8f4-41f4-8e47-fbc3bb564b53"
+      }
+    ]
+  },
+  {
+    "title": "Sales",
+    "id": "c109ae83-3b76-4bf4-9859-226c6e47991e",
+    "description": "Focuses on generating and managing customer relationships and revenue through sales strategies and client engagement.",
+    "employee": [
+      {
+        "firstName": "Alice",
+        "lastName": "Jane",
+        "position": "Developer",
+        "id": "74476244-ed0e-4ff9-9eac-7aa1eb77fa24"
+      },
+      {
+        "firstName": "Carol",
+        "lastName": "John",
+        "position": "Designer",
+        "id": "0f00c410-61ea-443a-8b31-4dcb96671a19"
+      },
+      {
+        "firstName": "Carol",
+        "lastName": "Jane",
+        "position": "Developer",
+        "id": "4189d4f6-01fd-4d67-a7f1-d9a3117e59c3"
+      },
+      {
+        "firstName": "John",
+        "lastName": "Jane",
+        "position": "Manager",
+        "id": "71482f3c-8855-4ba2-b4ce-e45126512446"
+      }
+    ]
+  },
+  {
+    "title": "Finance",
+    "description": "Responsible for managing the company's financial health, including accounting, budgeting, and financial planning.",
+    "id": "71482f3c-8855-4ba2-b4ce-e45126512ss",
+    "employee": []
+  },
+  {
+    "title": "HR",
+    "description": "Human Resources department, overseeing employee relations, benefits, recruitment, and maintaining workplace culture.",
+    "id": "71482f3c-8855-4ba2-b4ce-e4512651xxxx2ss",
+    "employee": []
+  }
+]

@@ -1,2 +1,75 @@
 .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.department {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: rgb(174, 208, 238);
+}
+
+.department_title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.department_description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.department_employee {
+  list-style: none;
+  padding: 0;
+}
+
+.employee_card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.employee_fullname {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.employee_position {
+  font-size: 1em;
+  color: #666;
+}
+
+.add-employee_form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.add-employee_form form {
+  display: grid;
+  grid-template-columns: 1fr; /* Changed to one column */
+  gap: 10px;
+}
+
+.add-employee_form input,
+.add-employee_form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-employee_form input[type="submit"] {
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.add-employee_form input[type="submit"]:hover {
+  background-color: rgb(174, 208, 238);
 }
